@@ -1,0 +1,22 @@
+{
+  "name": "pttrn-plugin-feather",
+  "version": "0.0.0",
+  "description": "A plugin script for the @NYCOpportunity Pattern CLI that will compile a feather icon sprite from the source.",
+  "main": "index.js",
+  "author": "NYC Opportunity<products@nycopportunity.nyc.gov>",
+  "license": "GPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityOfNewYork/patterns-plugin-feather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CityOfNewYork/patterns-plugin-feather/issues"
+  },
+  "scripts": {
+    "version": "git add .",
+    "prepublishOnly": "git push && git push --tags"
+  },
+  "dependencies": {
+    "svgstore": "^3.0.0-2"
+  }
+}
