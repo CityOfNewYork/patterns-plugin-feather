@@ -17,6 +17,7 @@
     "prepublishOnly": "git push && git push --tags"
   },
   "dependencies": {
+    "feather-icons": "^4.28.0",
     "svgstore": "^3.0.0-2"
   }
 }
