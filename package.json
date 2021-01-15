@@ -1,6 +1,6 @@
 {
   "name": "@nycopportunity/pttrn-plugin-feather",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A plugin script for the @NYCOpportunity Pattern CLI that will compile a feather icon sprite from the source.",
   "main": "index.js",
   "author": "NYC Opportunity<products@nycopportunity.nyc.gov>",
