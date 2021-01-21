@@ -20,9 +20,8 @@ const config = require(`${process.env.PWD}/config/feather`);
  * @pttrn Dependencies
  */
 
-const pttrn = `${process.env.PWD}/node_modules/@nycopportunity/pttrn`;
-const alerts = require(`${pttrn}/config/alerts`);
-const cnsl = require(`${pttrn}/bin/util/console`);
+const cnsl = require('@nycopportunity/pttrn/bin/util/console');
+const alerts = require('@nycopportunity/pttrn/config/alerts');
 
 /**
  * Constants
