@@ -4,7 +4,13 @@ This command plugin will compile a SVG icon sprite from the [Feather Icon](https
 
 ## Usage
 
-Install as a development dependency in a project that uses the [Patterns CLI](https://github.com/CityOfNewYork/patterns-cli). Add a proxy command script in the **./bin/** directory:
+Install as a development dependency in a project that uses the [Patterns CLI](https://github.com/CityOfNewYork/patterns-cli).
+
+```shell
+$ npm install @nycopportunity/pttrn-plugin-feather -D
+```
+
+Add a proxy command script in the **./bin/** directory:
 
 ```shell
 $ touch bin/feather.js
